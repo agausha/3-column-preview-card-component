@@ -22,11 +22,14 @@
   }
 
   &__icon {
-    margin-left: -10rem;
+    margin-bottom: 2.5rem;
   }
 
   &__heading {
-    margin-left: -5rem;
+    color: $color-neutral-Very-light-gray;
+    font-family: $font-display;
+    font-weight: 700;
+    text-transform: uppercase;
   }
 
   &__text {

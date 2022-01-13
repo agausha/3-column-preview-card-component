@@ -55,11 +55,14 @@ body {
 }
 
 .card__icon {
-  margin-left: -10rem;
+  margin-bottom: 2.5rem;
 }
 
 .card__heading {
-  margin-left: -5rem;
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 .card__text {
