@@ -1,5 +1,7 @@
 .card {
   display: flex;
+  border-radius: 0.9rem;
+  overflow: hidden;
 
   &__description {
     text-align: center;
