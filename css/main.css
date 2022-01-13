@@ -43,6 +43,14 @@ body {
   background: #004241;
 }
 
+.card__icon {
+  margin-left: -10rem;
+}
+
+.card__heading {
+  margin-left: -5rem;
+}
+
 .card__text {
   margin: 7rem 0 3rem 0;
 }
