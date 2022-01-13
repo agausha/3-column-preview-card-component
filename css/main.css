@@ -53,11 +53,14 @@ body {
 
 .card__text {
   margin: 7rem 0 3rem 0;
-  background: rgba(255, 255, 255, 0.75);
+  color: rgba(255, 255, 255, 0.75);
 }
 
 .card__btn {
   text-decoration: none;
+  background: #f2f2f2;
+  padding: 1rem 2rem;
+  border-radius: 100px;
   margin-left: -10rem;
 }
 

@@ -27,11 +27,14 @@
 
   &__text {
     margin: 7rem 0 3rem 0;
-    background: $color-neutral-Transparent-white-paragraphs;
+    color: $color-neutral-Transparent-white-paragraphs;
   }
 
   &__btn {
     text-decoration: none;
+    background: $color-neutral-Very-light-gray;
+    padding: 1rem 2rem;
+    border-radius: 100px;
     margin-left: -10rem;
   }
 }
