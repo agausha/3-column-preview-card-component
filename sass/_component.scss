@@ -33,17 +33,19 @@
   }
 
   &__text {
-    margin: 7rem 0 3rem 0;
+    font-size: 1.7rem;
+    text-align: left;
+    line-height: 1.7;
+    margin: 3rem 0 11rem 0;
     color: $color-neutral-Transparent-white-paragraphs;
   }
 
   &__btn {
-    font-size: 1.2rem;
-    color: $color-primary-Bright-orange;
+    font-size: 1.5rem;
     text-decoration: none;
+    color: $color-primary-Bright-orange;
     background: $color-neutral-Very-light-gray;
-    padding: 1rem 2rem;
     border-radius: 100px;
-    margin-left: -10rem;
+    padding: 1.2rem 2.5rem;
   }
 }
