@@ -53,6 +53,7 @@ body {
 
 .card__text {
   margin: 7rem 0 3rem 0;
+  background: rgba(255, 255, 255, 0.75);
 }
 
 .card__btn {
