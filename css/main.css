@@ -96,6 +96,16 @@ body {
   color: #004241;
 }
 
+@media only screen and (max-width: 920px) {
+  .card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 5rem auto;
+  }
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;
