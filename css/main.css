@@ -82,6 +82,20 @@ body {
   padding: 1.2rem 2.5rem;
 }
 
+.card__btn:hover {
+  background: none;
+  color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+}
+
+.card__btn--1 {
+  color: #006970;
+}
+
+.card__btn--2 {
+  color: #004241;
+}
+
 .main {
   display: -webkit-box;
   display: -ms-flexbox;

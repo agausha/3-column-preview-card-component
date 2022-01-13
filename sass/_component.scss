@@ -47,5 +47,19 @@
     background: $color-neutral-Very-light-gray;
     border-radius: 100px;
     padding: 1.2rem 2.5rem;
+
+    &:hover {
+      background: none;
+      color: $color-neutral-Very-light-gray;
+      border: 2px solid $color-neutral-Very-light-gray;
+    }
+  }
+
+  &__btn--1 {
+    color: $color-primary-Dark-cyan;
+  }
+
+  &__btn--2 {
+    color: $color-primary-Very-dark-cyan;
   }
 }
