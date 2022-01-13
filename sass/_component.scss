@@ -3,11 +3,13 @@
   border-radius: 0.9rem;
   overflow: hidden;
 
-  &__description {
-    text-align: center;
+  &__detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     padding: 3rem;
-    width: 25rem;
-    height: 40rem;
+    width: 30rem;
+    height: 50rem;
     background: $color-primary-Bright-orange;
 
     &:nth-child(2) {
