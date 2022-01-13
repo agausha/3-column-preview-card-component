@@ -1,0 +1,33 @@
+//COLORS PRIMARY
+$color-primary-Bright-orange: hsl(31, 77%, 52%);
+$color-primary-Dark-cyan: hsl(184, 100%, 22%);
+$color-primary-Very-dark-cyan: hsl(179, 100%, 13%);
+
+//COLORS NEUTRAL
+$color-neutral-Transparent-white-paragraphs: hsla(0, 0%, 100%, 0.75);
+$color-neutral-Very-light-gray: hsl(0, 0%, 95%);
+
+//FONT VARIABLES
+$font-primary: 'Lexend Deca', sans-serif;
+$font-display: 'Big Shoulders Display', sans-serif;
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  border: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; //1rem = 10px 10px/16px = 62.5%
+}
+
+body {
+  font-family: $font-primary;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.3;
+}

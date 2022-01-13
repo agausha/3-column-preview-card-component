@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+
+  &__description {
+    text-align: center;
+    padding: 3rem;
+    width: 25rem;
+    height: 40rem;
+    background: $color-primary-Bright-orange;
+
+    &:nth-child(2) {
+      background: $color-primary-Dark-cyan;
+    }
+
+    &:nth-child(3) {
+      background: $color-primary-Very-dark-cyan;
+    }
+  }
+
+  &__text {
+    margin: 7rem 0 3rem 0;
+  }
+
+  &__btn {
+    text-decoration: none;
+    margin-left: -10rem;
+  }
+}
