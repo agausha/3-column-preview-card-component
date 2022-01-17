@@ -1,5 +1,7 @@
 .card {
   display: flex;
+  max-width: 120rem;
+  margin: 0 auto;
   border-radius: 0.9rem;
   overflow: hidden;
 
@@ -47,6 +49,7 @@
     background: $color-neutral-Very-light-gray;
     border-radius: 100px;
     padding: 1.2rem 2.5rem;
+    transition: all 3s ease;
 
     &:hover {
       background: none;
@@ -69,6 +72,6 @@
 .card {
   @media only screen and(max-width:920px) {
     flex-direction: column;
-    margin: 5rem auto;
+    margin: 5rem 0;
   }
 }

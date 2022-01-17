@@ -25,6 +25,8 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  max-width: 120rem;
+  margin: 0 auto;
   border-radius: 0.9rem;
   overflow: hidden;
 }
@@ -80,6 +82,8 @@ body {
   background: #f2f2f2;
   border-radius: 100px;
   padding: 1.2rem 2.5rem;
+  -webkit-transition: all 3s ease;
+  transition: all 3s ease;
 }
 
 .card__btn:hover {
@@ -102,7 +106,7 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 5rem auto;
+    margin: 5rem 0;
   }
 }
 
