@@ -38,10 +38,11 @@
     text-align: left;
     line-height: 1.7;
     margin: 3rem 0 7rem 0;
-    color: $color-neutral-Transparent-white-paragraphs;
+    color: $color-neutral-Transparent-white;
   }
 
   &__btn {
+    display: inline-block;
     font-size: 1.5rem;
     text-decoration: none;
     color: $color-primary-Bright-orange;
