@@ -1,7 +1,5 @@
 .card {
   display: flex;
-  max-width: 120rem;
-  margin: 0 auto;
   border-radius: 0.9rem;
   overflow: hidden;
 
@@ -69,8 +67,9 @@
 
 /////////////////////////////////////////////////////////////
 //MEDIA QUERIES
+
 .card {
-  @media only screen and(max-width:920px) {
+  @media only screen and (max-width: 920px) {
     flex-direction: column;
     margin: 5rem 0;
   }

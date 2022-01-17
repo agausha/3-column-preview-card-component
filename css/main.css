@@ -25,8 +25,6 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 120rem;
-  margin: 0 auto;
   border-radius: 0.9rem;
   overflow: hidden;
 }
@@ -120,6 +118,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 140rem;
+  margin: 0 auto;
   min-height: 100vh;
   background: #f2f2f2;
 }
