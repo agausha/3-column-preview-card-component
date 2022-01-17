@@ -8,7 +8,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 5rem;
-    width: 31rem;
+    width: 32rem;
     height: 50rem;
     background: $color-primary-Bright-orange;
 
@@ -26,6 +26,7 @@
   }
 
   &__heading {
+    font-size: 4rem;
     color: $color-neutral-Very-light-gray;
     font-family: $font-display;
     font-weight: 700;
@@ -33,7 +34,7 @@
   }
 
   &__text {
-    font-size: 1.7rem;
+    font-size: 1.5rem;
     text-align: left;
     line-height: 1.7;
     margin: 3rem 0 11rem 0;
