@@ -1,3 +1,6 @@
+////////////////////////////////////////////////////////////
+// MAIN SECTION
+
 .main {
   display: flex;
   justify-content: center;
@@ -7,4 +10,10 @@
   padding: 17rem 0;
   min-height: 100vh;
   background: $color-neutral-Very-light-gray;
+}
+
+.main {
+  @media only screen and (max-width: 800px) {
+    padding: 4rem 0;
+  }
 }

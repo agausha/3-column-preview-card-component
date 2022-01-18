@@ -5,16 +5,12 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   border-radius: 0.9rem;
+  max-width: 93rem;
+  margin: 2rem;
   overflow: hidden;
 
   &__detail {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     padding: 5rem;
-    max-width: 31rem;
-    margin: 0 auto;
-    height: 50rem;
     background: $color-primary-Bright-orange;
 
     &:nth-child(2) {
@@ -76,7 +72,7 @@
 //MEDIA QUERIES
 
 .card {
-  @media only screen and (max-width: 920px) {
-    flex-direction: column;
+  @media only screen and (max-width: 800px) {
+    grid-template-columns: 1fr;
   }
 }
