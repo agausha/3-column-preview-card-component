@@ -1,3 +1,6 @@
+////////////////////////////////////////////////////////////
+// CARD SECTION
+
 .card {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -75,6 +78,5 @@
 .card {
   @media only screen and (max-width: 920px) {
     flex-direction: column;
-    // margin: 5rem 0;
   }
 }
